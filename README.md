@@ -5,7 +5,8 @@
     sudo apt install neovim (Linux)
 
 ### 2. Clone repo
+    cd ~/.config
     git clone https://github.com/...
 
-### 4. Launch Neovim
-    nvim +PackerSync
+### 3. Launch Neovim
+    :Lazy sync
